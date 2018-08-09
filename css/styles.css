@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background-color: aliceblue;
+}
+
+.menu a{
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 15px;
+    color: #296cd8;
+}
+
+header img{
+    height: 40px;
+    width: 40px;
+    float: right;
+    padding-right: 15px;
+}
+
+li{
+    list-style: none;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.exemplo{
+    text-align: center;
+    
+}
+
+.exemplo li{
+    background-color: violet;
+    height: 350px;
+    width: 350px;
+    display: inline-block;
+    
+    
+}
+
+li:nth-child(2){
+    background-color: #f4c141;
+    height: 350px;
+    width: 350px;
+    border-radius: 15%;
+    
+}
+
+li:last-child{
+    background-color: blue;
+    height: 350px;
+    width: 350px;
+    border-radius: 15%;
+}
+
+li:nth-child(1){
+    background-color: aqua;
+    height: 350px;
+    width: 350px;
+    border-radius: 15%;
+}
+
+li:nth-child(3){
+    background-color: yellowgreen;
+    height: 350px;
+    width: 350px;
+    border-radius: 15%;
+}
+
+li:nth-child(4){
+    height: 350px;
+    width: 350px;
+    border-radius: 15%;
+}
+
+.container ul{
+    display: flex;
+    
+}
+
+.fds li{
+background-color: teal;
+height: 200px;
+width: 200px;
+text-align: center;
+}
+
+.fds{
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.exemplo1 li{
+    background-color: springgreen;
+    height: 100px;
+    width: 100px;
+    text-align: center; 
+}
+
+.exemplo1{
+    position: fixed;
+
+}
+
+.container2 ul{
+    
+}
+
+.flores{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    left: 1060px;
+    bottom: 191px;
+    
+}
